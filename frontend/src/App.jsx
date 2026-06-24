@@ -77,7 +77,7 @@ function App() {
   const deleteEnquiry = async (id) => {
     try {
       await axios.delete(
-        `http://localhost:5000/api/enquiries/${id}`
+        `https://tour-management-backend-6i28.onrender.com/api/enquiries`
       );
 
       alert("Enquiry Deleted Successfully");
